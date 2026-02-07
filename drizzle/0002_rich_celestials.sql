@@ -1,0 +1,2 @@
+ALTER TABLE `events` ADD `category` enum('trabalho','pessoal','urgente','lazer','saude','outro') DEFAULT 'pessoal' NOT NULL;--> statement-breakpoint
+ALTER TABLE `events` ADD `color` varchar(7) DEFAULT '#22C55E' NOT NULL;
